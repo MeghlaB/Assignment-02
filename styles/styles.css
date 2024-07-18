@@ -30,13 +30,41 @@ body{
 }
 .nav-menu{
     display: flex;
-    gap: 55px;
+    /* justify-content: space-evenly; */
+    gap: 50px;
     width: 450px;
+    height: 30px;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid rgba(211, 211, 211, 0.103);
 
 }
+.nav-menu-item{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    
+}
 .fantassy{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 120px;
+    color: rgb(230, 83, 60);
     width: 120px;
 }
+.primary-btn{
+    width: 90px;
+    height: 30px;
+    margin-right: 50px;
+    color: white;
+    font-size: 1rem;
+    background-color:  rgb(230, 83, 60);;
+    border-radius:26px ;
+}
+
 .humbars{
     display: none;
 }
