@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    .nav-menu {
+        display: none;
+    }
+    .humbars{
+        display: flex;
+        text-align: center;
+    } 
+    i{
+        width: 100px;
+        color: white;
+    }
+    .fantassy{
+        font-size: 2.5rem;
+        width: 5rem;
+    }
+}
