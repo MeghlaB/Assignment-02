@@ -98,5 +98,55 @@
     align-items: center;
 
 }
+/* second-section */
+.second-section{
+    max-width: 80%;
+    /* height: 350px; */
+    margin: 0% auto;
+    margin-top: 60rem;
+    border-radius: 18px;
+   
+    background: rgb(34, 34, 34);
+}
+.run-and-mile-styles{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.run-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 30px;
 
+}
+.run-description{
+    font-size: 0.95rem;
+    font-weight: 300;
+    padding-top: 1rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+   
+}
+.Join-button{
+
+    width: 200px;
+    height: 43px;
+    margin: 0% auto;
+    font-size: 1rem;
+    border-radius: 42px;
+    border: none;
+    left: 12px;
+    margin-top: 1rem;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    gap: 20px;
+}
+.run-img{
+    width:366px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 18px;
+}
 }
