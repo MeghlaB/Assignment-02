@@ -64,6 +64,39 @@
     
 
 }
+/* frist-section */
+.frist-section{
+    max-width: 90%;
+}
+.change-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: white;
+    /* padding-top: 2rem; */
+    padding-bottom: 1.5rem;
+    line-height: 20px;
+}
+.cricle-images-styles{
+    margin-top: 2rem;
+    height: 224px;
+    flex-direction: column;
+}
+.main{
+    padding-top: 1rem;
+}
+.frist-section{
+    margin: 0%;
 
+}
+.change-title{
+    padding-top: 0%;
+}
+.cricle-images{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
 
 }
