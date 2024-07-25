@@ -3,14 +3,14 @@
         display: none;
     }
     .humbars{
-        display:block;
+        display:inline;
         text-align: center;
         margin-left: 80px;
           
     }
     i{
         color: rgb(243, 232, 232);
-        font-size:2.5rem 
+        font-size:2.5rem;
 
     }
     .Fitness{
@@ -48,7 +48,7 @@
     height: 100px;
     border-radius:16px;
     position: absolute;
-    top:90%;
+    top:12%;
     left: 50%;
 }
 .second-club{
@@ -59,7 +59,7 @@
     height: 100px;
     border-radius:18px;
     position: absolute;
-    top: 115%;
+    top: 55%;
     left: 5%;
     
 
