@@ -115,7 +115,7 @@ body{
     border: none;
     background-color: rgb(230, 83, 60);
     color: white;
-    gap: 20px;
+    
 }
 .second-button{
     width: 150px;
@@ -256,7 +256,6 @@ h4{
 }
 .run-and-mile-styles{
     width: 80%;
-
     display: flex;
  
 }
@@ -295,7 +294,7 @@ h4{
 }
 .run-images{
     width: 366px;
-    /* height: 312px; */
+    height: 312px;
     margin-top: 30px;
    
     /* border: 1px solid khaki; */
@@ -305,4 +304,98 @@ h4{
     height: 300px;
     margin-left: 150px;
     border-radius: 18px;
+}
+
+/* third-section-styles */
+.third-section{
+    margin-top: 5rem;
+}
+.BM-calculator{
+    width: 45%;
+    margin: 0% auto;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+
+}
+.BMI-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: normal;
+    /* text-align: center; */
+
+}
+.BMI-description{
+    font-size: .95rem;
+    font-weight: 300;
+    padding-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: normal;
+    /* text-align: center; */
+
+
+}
+.BMI-section{
+    width: 100%;
+    margin-top: 5rem;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.div1{
+    width: 38%;
+    margin: 2% auto;
+    border: 1px solid rebeccapurple;
+}
+.BMI-calculator-chart{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 50px;
+ 
+}
+table{
+    margin-top: 3rem;
+    border-collapse: collapse;
+}
+th{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+ th,td{
+    width: 130px;
+    height: 25px;
+    border: 1px solid grey;
+    /* text-align: justify; */
+}
+td{
+    font-size: .80rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.div2{
+    width: 45%;
+    margin: 2% auto;
+    border: 1px solid rebeccapurple;
+
+}
+.calculate-title{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 50px;
+
+}
+.calculate-description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    line-height: normal;
 }
