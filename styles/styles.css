@@ -185,7 +185,7 @@ body{
 /* main section styles */
 main{
     max-width:1250px;
-    height:2500px;
+    height:4500px;
     margin: 0% auto;
     padding-top: 6rem;
     background-color: black;
@@ -311,11 +311,12 @@ h4{
     margin-top: 5rem;
 }
 .BM-calculator{
-    width: 45%;
+    width: 48%;
     margin: 0% auto;
     justify-items: center;
     align-items: center;
-    border: 1px solid rebeccapurple;
+
+
 
 }
 .BMI-title{
@@ -339,17 +340,16 @@ h4{
 .BMI-section{
     width: 100%;
     margin-top: 5rem;
-    height: 400px;
+    height: 300px;
     background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid greenyellow;
     display: flex;
     justify-content: space-between;
  
 }
 .div1{
-    width: 38%;
+    width: 30%;
     margin: 2% auto;
-    border: 1px solid rebeccapurple;
+
 }
 .BMI-calculator-chart{
     color: white;
@@ -373,7 +373,7 @@ th{
     width: 130px;
     height: 25px;
     border: 1px solid grey;
-    /* text-align: justify; */
+
 }
 td{
     font-size: .80rem;
@@ -383,7 +383,7 @@ td{
 .div2{
     width: 45%;
     margin: 2% auto;
-    border: 1px solid rebeccapurple;
+
 
 }
 .calculate-title{
@@ -394,8 +394,109 @@ td{
 
 }
 .calculate-description{
-    font-size: 1rem;
+    font-size: .80rem;
     color: rgba(255, 255, 255, 0.5);
     font-weight: normal;
     line-height: normal;
+}
+.calculate-from{
+    width: 80%;
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px; 
+}
+.frist-grid{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.second-grid{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+.third-grid{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fourth-grid{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+.hiegt{
+    text-align: justify;
+    margin-left: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.from{
+   
+    margin-left: 2rem;
+}
+.fivth-grid{
+    width: 195%;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5)
+}
+.btn-cal{
+    width: 70%;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+}
+/* fourth-section styles */
+
+.fourth-section{
+
+ 
+   
+}
+.fourth-text{
+    width: 70%;
+    margin: 0 auto;
+}
+.fourth-title{
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+.fourth-description{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.image-section{
+    max-width: 80%;
+    height: 550px;
+    margin: 0% auto;
+    margin-top: 1rem;
+    border-radius: 18px;
+    border: 1px solid teal;
+    background: rgb(34, 34, 34);
+
 }
