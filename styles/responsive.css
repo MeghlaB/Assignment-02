@@ -2,39 +2,65 @@
     .nav-menu{
         display: none;
     }
-    .humbars{
-        display:inline;
-        text-align: center;
-        margin-left: 80px;
+.humbars{
+    display:inline;
+    text-align: center;
+    margin-left: 80px;
           
-    }
-    i{
-        color: rgb(243, 232, 232);
-        font-size:2rem;
+}
+i{
+    color: rgb(243, 232, 232);
+    font-size:2rem;
 
-    }
-    .navbar{
-        padding-top: 12px;
+}
+.navbar{
+    padding-top: 12px;
 
-    }
-    .Fitness{
-        font-size: 2rem;
-        width: 5rem;
-        color:rgb(230, 83, 60);
-    }
+}
+.Fitness{
+    font-size: 2rem;
+    width: 5rem;
+    color:rgb(230, 83, 60);
+}
    /* Banner_iamges-responsive */
-   .banner-container{
-        flex-direction: column;
+.banner-container{
+    flex-direction: column;
    }
-   .banner-text{
-        width: 100%;
+.banner-text{
+    width: 100%;
    }
-   .banner-title{
-        font-size: 3.5rem;
-        line-height: 60px;
-        font-weight: 400;
-        color: white;
-        text-align: left;
+.banner-title{
+    font-size: 3.5rem;
+    line-height: 60px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+}
+.button-section{
+    gap: 30px;
+    margin-right: 2rem;
+}
+.frist-button{
+    width: 150px;
+    height: 43px;
+    margin: 0% auto;
+    font-size: 1rem;
+    border-radius: 42px;
+    border: none;
+    gap: 30px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    
+}
+.second-button{
+    width: 150px;
+    height: 43px;
+    margin: 0% auto;
+    font-size: 1rem;
+    border: none;
+    border-radius: 42px;
+    color: white;
+    background-color: rgba(211, 211, 211, 0.253);
 }
 .banner-image{
     width: 80%;
@@ -65,10 +91,24 @@
     position: absolute;
     top: 55%;
     left: 5%;
-    
-
 }
-
+.paly-button{
+    color: white;
+    position: absolute;
+    padding-left: 1.8rem;
+    padding-top: 2.2rem;  
+    display: block; 
+}
+.cricle{
+    width: 45px;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 15px;
+    box-sizing: content-box;
+    background-color: red;
+    border-radius:50%;
+    border: 2px solid red;
+}
 /* frist-section */
 .frist-section{
     max-width: 90%;
@@ -98,7 +138,7 @@
     flex-direction: column;
 }
 main{
-    height:4350px;
+    height:4400px;
     background-color: black;
     padding-top: 1rem;
 }
@@ -111,7 +151,7 @@ main{
 }
 .cricle-images{
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
     justify-content: center;
     align-items: center;
 
@@ -185,8 +225,6 @@ main{
     background-color: rgba(255, 255, 255, 0.1);
     flex-direction: column;
   
-   
- 
 }
 .div{
     width: 80%;
@@ -211,9 +249,6 @@ table{
     margin-top: 12px;
     margin-bottom: 0.89rem;
     margin-left: 10px;
-    
-  
-
 }
 .calculate-title{
     color: white;
@@ -251,6 +286,8 @@ table{
 .meet-team{
     max-width: 100%;
     height: 1200px;
+    justify-items: center;
+    align-items: center;
     margin-top: 3rem;
     border-radius: 18px;
     background: rgb(34, 34, 34);
