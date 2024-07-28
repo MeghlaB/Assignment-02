@@ -19,13 +19,10 @@ body{
     font-family: "Inter", sans-serif;
     max-width:1250px;
     margin: 0% auto;
-    /* background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(29, 29, 29, 0.8), rgb(0, 0, 0)); */
 }
 /* header-section */
 .navbar{
-    margin: 0rem auto;
-    /* background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(29, 29, 29, 0.8), rgb(0, 0, 0)); */
-   
+    margin: 0rem auto;  
 }
 /* Nav_bar styles */
 .navbar{
@@ -36,7 +33,6 @@ body{
 }
 .nav-menu{
     display: flex;
-    /* justify-content: space-evenly; */
     gap: 50px;
     width: 450px;
     height: 30px;
@@ -51,8 +47,7 @@ body{
     gap: 45px;
     font-size: 1rem;
     font-weight: 400;
-    color: white;
-    
+    color: white;   
 }
 .fantassy{
     font-size: 2rem;
@@ -62,11 +57,13 @@ body{
     width: 120px;
 }
 .primary-btn{
-    width: 90px;
-    height: 30px;
+    width: 80px;
+    height: 28px;
     margin-right: 50px;
     color: white;
+    margin-left: 5px;
     font-size: 1rem;
+    border: none;
     background-color:  rgb(230, 83, 60);
     border-radius:26px ;
 }
@@ -76,7 +73,6 @@ body{
 }
 /* Banner-section */
 .banner-section{
-    /* border: 2px solid darkblue; */
     width: 90%;
     margin: 0 auto;
 }
@@ -88,11 +84,10 @@ body{
 }
 .banner-text{
     width: 48%;
-    /* border: 1px solid gold; */
 }
 .banner-title{
-    font-size: 4rem;
-    font-weight: 600;
+    font-size: 5rem;
+    font-weight: 900;
     line-height: 90px;
     color: white;
     text-align: left;
@@ -103,9 +98,7 @@ body{
     font-weight: 500;
     text-align: left;
     margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.5)
-    
-    
+    color: rgba(255, 255, 255, 0.5)  
 }
 .button-section{
     gap: 30px;
@@ -120,8 +113,7 @@ body{
     border: none;
     gap: 30px;
     background-color: rgb(230, 83, 60);
-    color: white;
-    
+    color: white;   
 }
 .second-button{
     width: 200px;
@@ -257,7 +249,6 @@ h4{
 /* second-section styles */
 .second-section{
     max-width: 88%;
-    /* height: 350px; */
     margin: 0% auto;
     margin-top: 5rem;
     border-radius: 18px;
@@ -271,7 +262,6 @@ h4{
 }
 .run-and-extra{
     width: 50%;
-    /* border: 2px solid saddlebrown; */
     margin-top: 30px;
     margin-left: 2rem;
 }
@@ -307,8 +297,6 @@ h4{
     width: 80%;
     height: 80%;
     margin-top: 20px;
-   
-    /* border: 1px solid khaki; */
 }
 .run-img{
     width:100%;
@@ -326,17 +314,12 @@ h4{
     margin: 0% auto;
     justify-items: center;
     align-items: center;
-
-
-
 }
 .BMI-title{
     color: white;
     font-size: 2rem;
     font-weight: 900;
     line-height: normal;
-    /* text-align: center; */
-
 }
 .BMI-description{
     font-size: .95rem;
@@ -344,9 +327,6 @@ h4{
     padding-top: 0.5rem;
     color: rgba(255, 255, 255, 0.5);
     line-height: normal;
-    /* text-align: center; */
-
-
 }
 .BMI-section{
     width: 100%;
@@ -354,9 +334,7 @@ h4{
     height: 320px;
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
-    justify-content: space-around; 
- 
- 
+    justify-content: space-around;  
 }
 .div{
     width: 30%;
@@ -478,7 +456,7 @@ td{
 .challenging-part{
     width: 100%;
     height: 500px;
-    background-image: linear-gradient(90deg, rgb(83, 76, 75) 0%, rgba(133, 12, 12, 0) 100%),url(../images/uniqe.jpg);
+    background-image: linear-gradient(90deg, rgb(83, 76, 75) 0%, rgba(133, 12, 12, 0) 100%),url(../images/challenging.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -502,38 +480,43 @@ td{
     text-align: left;
 }
 .crossfit-description{
+    margin-top: 12px;
     font-size: 1rem;
     font-weight: 400;
     color: black;
-    text-align: center;
-
 }
 
 .border{
-    width: 350px;
+    width: 300px;
     color: black;
     font-weight: 400;
     text-align: left;
-    margin: 1rem auto;
+    margin-top: 5px;
+    margin-left: 2px;
 }
 .read-more{
     width: 200px;
     height: 50px;
     border-radius: 18px;
     margin-left: 15rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-top: 1rem;
     background: border-box;
-    background-color: darkgrey;
     border: none;
     border: 1px solid grey;
     color: rgb(240, 19, 192);
 
 }
+.read-more a{
+    color: rgb(240, 19, 192);
+    text-decoration: none;
+
+}
+.read-more:hover{
+    cursor: pointer;
+}
 /* fourth-section styles */
-
-
 .fourth-section{
     max-width: 90%;
     height: 750px;
