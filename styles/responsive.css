@@ -166,7 +166,7 @@
 .BMI-section{
     padding-top: 1rem;
     width: 100%;
-    height: 850px;
+    height: 650px;
     background-color: rgba(255, 255, 255, 0.1);
     flex-direction: column;
   
@@ -194,7 +194,7 @@ table{
 .div0{
     width:90%;
     margin-top: 12px;
-    margin-bottom: 5rem;
+    margin-bottom: 0.89rem;
     margin-left: 10px;
     
   
@@ -217,10 +217,37 @@ table{
     color: rgba(255, 255, 255, 0.5)
 }
 .btn-cal{
+    width: 200px;
     margin-bottom: 2rem;
 }
 /* Fourth-section-responsive */
-
+.fourth-text-section{
+    width: 100%;
+    margin: 0% auto;
+ 
+}
+.fourth-titile{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
+.meet-team{
+    max-width: 100%;
+    height: 1200px;
+    margin-top: 3rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.div1{
+    display: none;
+}
+.div4{
+    display: none;
+}
 
 
 }

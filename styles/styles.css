@@ -186,7 +186,7 @@ body{
 /* main section styles */
 main{
     max-width:1640px;
-    height:3000px;
+    height:8000px;
     margin: 0% auto;
     padding-top: 6rem;
     background-color: black;
@@ -349,7 +349,7 @@ h4{
  
  
 }
-.div1{
+.div{
     width: 30%;
     margin: 2% auto;
 
@@ -383,7 +383,7 @@ td{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
-.div2{
+.div0{
     width: 45%;
     margin: 0% auto;
 }
