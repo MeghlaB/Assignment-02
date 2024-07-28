@@ -186,7 +186,7 @@ body{
 /* main section styles */
 main{
     max-width:1640px;
-    height:8000px;
+    height:2300px;
     margin: 0% auto;
     padding-top: 6rem;
     background-color: black;
@@ -569,177 +569,92 @@ td{
     color: rgba(255, 255, 255, 0.5);
 
 }
-
-/* .fourth-section{
-
- 
+/* footer-section-styles */
+footer{
+    max-width:1640px;
+    height:350px;
+    padding-top: 3rem;
+    margin: 0% auto;
+    background-color:rgb(31, 30, 30);
    
+    
 }
-.fourth-text{
-    width: 70%;
-    margin: 0 auto;
-}
-.fourth-title{
-    margin-top: 3rem;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 30px;
-    text-align: center;
-    color: white;
-}
-.fourth-description{
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: normal;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
-}
-.image-section{
-    max-width: 80%;
-    height: 550px;
+.footer-section-styles{
+    width: 80%;
     margin: 0% auto;
     margin-top: 1rem;
-    border-radius: 18px;
-    background: rgb(34, 34, 34);
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.frist-footer{
+    width: 40%;
 
 }
-.trainer{
-    width: 290px;
-    height: 250px;
-   margin: 2% auto;  
-  
+.second-footer{
+    width: 40%;  
+    margin-left: 100px;
 }
-.trainer1 img{
-    width: 100%;
-    height: 250px;
-    border-radius: 16px;
-    position: relative;
- 
-}
- .name1{
-    position: absolute;
-    top:2740px;
-    color:white;
-    font-size: 1.2rem;
-    padding-left: 20px;
-}
-.descrip1{
-    position: absolute;
-    top:2770px;
-    font-size: 16px;
-    color:lightgrey;
-    padding-left: 20px;
- } 
+.third-footer{
+    width: 40%;
 
-.trainer2 img{
-
-    width: 100%;
-    height: 250px;
-    border-radius: 16px;
-    position:relative;
-}
-.name2{
-    position: absolute;
-    top:2740px;
-    color:white;
-    font-size: 1.2rem;
-    padding-left: 20px;
-}
-.descrip2{
-    position: absolute;
-    top:2770px;
-    font-size: 16px;
-    color:lightgrey;
-    padding-left: 20px;
- } 
-.trainer3 img{
-    width: 100%;
-    height: 250px;
-    border-radius: 16px;
-    position:relative;
 
 }
-.name3{
-    position: absolute;
-    top:2740px;
-    color:white;
-    font-size: 1.2rem;
-    padding-left: 20px;
+.fitnes{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgb(230, 83, 60);
+    width: 120px;
 }
-.descrip3{
-    position: absolute;
-    top:2770px;
-    font-size: 16px;
-    color:lightgray;
-    padding-left: 20px;
+.description{
+    font-size: .88rem;
+    font-weight: 400;
+    margin-top: 12px;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
 }
-.trainer4 img{
-    width: 100%;
-    height: 240px;
-    border-radius: 16px;
-    position:relative;
+.second-footer >h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    color: white;
 }
-.name4{
-    position: absolute;
-    top:3010px;
-    color:white;
-    font-size: 1.2rem;
-    padding-left: 20px;
-}
-.descrip4{
-    position: absolute;
-    top:3050px;
-    font-size: 16px;
-    color:lightgray;
-    padding-left: 20px;
-}
-.trainer5 img{
-    width: 100%;
-    height: 240px;
-    border-radius: 16px;
-    position:relative;
-}
-.name5{
-    position: absolute;
-    top:3010px;
-    color:white;
-    font-size: 1.2rem;
-    padding-left: 20px;
-}
-.descrip5{
-    position: absolute;
-    top:3050px;
-    font-size: 16px;
-    color:lightgray;
-    padding-left: 20px;
-}
-.trainer6 img{
-    position:relative;
-    width: 100%;
-    height: 240px;
-    border-radius: 16px;
-} 
-.name6{
-    position: absolute;
-    top:3010px;
-    color:white;
-    padding-left: 20px;
-    font-size: 1.2rem;
-}
-.descrip6{
-    position: absolute;
-    top: 3000px;
-    font-size: 16px;
-    color:lightgray;
-    padding-left: 20px;
-} */
+.second-footer >p{
+    font-size: .88rem;
+    font-weight: 400;
+   margin-top: 8px;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
 
-/* footer-section-styles */
-.footer-section{
-    max-width:1250px;
-    height: 350px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rebeccapurple;
+
+}
+.third-footer >h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    color: white;
+
+}
+.third-footer >p{
+    font-size: .88rem;
+    font-weight: 400;
+     margin-top: 8px;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    margin-top: 5rem;
+}
+.last-foot{
+    text-align: center;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
 }

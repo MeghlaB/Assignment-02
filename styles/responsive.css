@@ -84,7 +84,9 @@
     height: 224px;
     flex-direction: column;
 }
-.main{
+main{
+    height:4300px;
+    background-color: black;
     padding-top: 1rem;
 }
 .frist-section{
