@@ -10,7 +10,11 @@
     }
     i{
         color: rgb(243, 232, 232);
-        font-size:2.5rem;
+        font-size:2rem;
+
+    }
+    .navbar{
+        padding-top: 12px;
 
     }
     .Fitness{
@@ -34,7 +38,7 @@
 }
 .banner-image{
     width: 80%;
-    margin-right: 10rem;
+    margin-right: 5rem;
     /* border: 1px solid rebeccapurple; */
 }
 .images{
@@ -49,7 +53,7 @@
     border-radius:16px;
     position: absolute;
     top:12%;
-    left: 50%;
+    left: 58%;
 }
 .second-club{
     display: flex;
@@ -70,14 +74,23 @@
     max-width: 90%;
 }
 .change-title{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: bold;
-    line-height: 40px;
+    line-height: 50px;
+    margin-left: 2rem;
     font-family: "Inter", sans-serif;
     color: white;
     /* padding-top: 2rem; */
     padding-bottom: 1.5rem;
     
+}
+.change-descrption{
+    font-size: 0.90rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
 }
 .cricle-images-styles{
     margin-top: 2rem;
@@ -85,7 +98,7 @@
     flex-direction: column;
 }
 main{
-    height:4300px;
+    height:4350px;
     background-color: black;
     padding-top: 1rem;
 }
@@ -163,7 +176,7 @@ main{
 /* THird-section */
 .BM-calculator{
     width: 60%;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .BMI-section{
     padding-top: 1rem;
@@ -249,6 +262,38 @@ table{
 }
 .div4{
     display: none;
+}
+/* footer-section-responsive */
+footer{
+    padding-top: 2rem;
+    height:720px;  
+}
+.footer-section-styles{
+    width: 80%;
+    margin: 0% auto;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 30px;
+}
+.fitnes >i{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 50px;
+    color: rgb(230, 83, 60);
+    width: 120px;
+}
+.description{
+    font-size: .88rem;
+    font-weight: 400;
+    width: 250px;
+    margin-top: 12px;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 20px;
+}
+.second-footer{
+    width: 40%;  
+    margin-left: 10px;
 }
 
 
