@@ -187,7 +187,7 @@ body{
 /* main section styles */
 main{
     max-width:1640px;
-    height:2800px;
+    height:3000px;
     margin: 0% auto;
     padding-top: 6rem;
     background-color: black;
@@ -428,10 +428,11 @@ td{
 .hiegt{
     text-align: justify;
     margin-left: 1rem;
+    margin-top: 0.4rem;
     color: rgba(255, 255, 255, 0.5);
 }
 .from{
-   
+    font-size: 1rem;
     margin-left: 2rem;
 }
 .fivth-grid{
@@ -454,67 +455,55 @@ td{
 }
 /* challenging-part-styles */
 .challenging-part{
+    max-width: 100%;
+    height: 480px;
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 5rem;
+}
+.challenging-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    
+
+}
+.images-fit{
+    width: 40%;
+}
+.img-fit{
     width: 100%;
-    height: 500px;
-    background-image: linear-gradient(90deg, rgb(83, 76, 75) 0%, rgba(133, 12, 12, 0) 100%),url(../images/challenging.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    border-radius: 16px;
+    position: relative;
 }
-.challenging-text{
-    width: 450px;
-    padding-top: 10rem;
-    padding-left: 10rem;
+.container-text{
+    width:40%;
 }
-#crossfit{
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 50px;
-    color: white;  
-}
-.welcome-title{
-    font-size: 2rem;
+.container-title{
+    font-size: 3.1rem;
     font-weight: 700;
-    line-height: 50px;
     color: white;
-    text-align: left;
 }
-.crossfit-description{
-    margin-top: 12px;
+.container-description{
+    padding-top: 1rem;
     font-size: 1rem;
     font-weight: 400;
-    color: black;
-}
+    color:rgba(255, 255, 255, 0.5) ;
 
-.border{
-    width: 300px;
-    color: black;
-    font-weight: 400;
-    text-align: left;
-    margin-top: 5px;
-    margin-left: 2px;
 }
-.read-more{
-    width: 200px;
-    height: 50px;
-    border-radius: 18px;
-    margin-left: 15rem;
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-top: 1rem;
-    background: border-box;
+.free-trailer{
+    width: 150px;
+    height: 43px;
+    margin: 0% auto;
+    font-size: 1rem;
+    border-radius: 8px;
     border: none;
-    border: 1px solid grey;
-    color: rgb(240, 19, 192);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    gap: 20px;
 
-}
-.read-more a{
-    color: rgb(240, 19, 192);
-    text-decoration: none;
-
-}
-.read-more:hover{
-    cursor: pointer;
 }
 /* fourth-section styles */
 .fourth-section{

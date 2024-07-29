@@ -136,7 +136,7 @@ i{
     flex-direction: column;
 }
 main{
-    height:4900px;
+    height:5100px;
     background-color: black;
     padding-top: 1rem;
 }
@@ -260,36 +260,54 @@ table{
 }
 /* challenging-part-responsive */
 .challenging-part{
-    width: 100%;
-    height: 500px;
-    background-image: linear-gradient(90deg, rgb(83, 76, 75) 0%, rgba(133, 12, 12, 0) 100%),url(../images/challenging.jpg);
-    background-repeat: no-repeat;
-    background-position: contain;
-    background-size: cover;
+    height: 720px;
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 5rem;
 }
-.challenging-text{
+.challenging-container{
+    flex-direction: column;
+    margin-top: 5rem;
+  
+}
+.images-fit{
     width: 80%;
-    padding-top: 5rem;
-    padding-left: 5rem;
+    margin: 0% auto;
 }
-.crossfit-description{
-    width: 90%;
+.img-fit{
+    width: 100%;
+    border-radius: 16px;
+    position: relative;
+}
+.container-text{
+    margin: 0% auto;
+    width:80%;
+    padding-top: 2rem;
+}
+.container-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.container-description{
+    padding-top: 1rem;
     font-size: 1rem;
     font-weight: 400;
-    color: black;
+    color:rgba(255, 255, 255, 0.5) ;
+
 }
-.read-more{
+.free-trailer{
     width: 200px;
-    height: 50px;
-    border-radius: 18px;
-    margin-left: 8rem;
+    height: 43px;
+    margin: 0% auto;
     font-size: 1rem;
-    font-weight: 400;
-    margin-top: 1rem;
-    background: border-box;
+    border-radius: 8px;
     border: none;
-    border: 1px solid rgb(160, 125, 173);
-    color: rgb(139, 4, 110);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    gap: 20px;
 
 }
 
@@ -311,7 +329,7 @@ table{
     height: 1200px;
     justify-items: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     display: grid;
