@@ -187,7 +187,7 @@ body{
 /* main section styles */
 main{
     max-width:1640px;
-    height:3000px;
+    height:3500px;
     margin: 0% auto;
     padding-top: 6rem;
     background-color: black;
@@ -456,15 +456,14 @@ td{
 /* challenging-part-styles */
 .challenging-part{
     max-width: 100%;
-    height: 480px;
-    border: 1px solid grey;
+    height: 950px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-top: 5rem;
 }
 .challenging-container{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5rem;
+    padding-top: 5rem;
     
 
 }
@@ -503,6 +502,55 @@ td{
     background-color: rgb(230, 83, 60);
     color: white;
     gap: 20px;
+
+}
+.challenging-card-styles{
+    width: 100%;
+    height: 520px;
+    margin-top: 5rem;
+
+    background-color: rgb(49, 49, 49);
+}
+.card-contain{
+    display: flex;
+    width: 90%;
+    padding-top: 3rem;
+    margin: 5% auto;
+    justify-content: space-evenly;
+
+}
+.contain-titile{
+    text-align: justify;
+    width: 40%;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: white;
+
+}
+.contain-description{
+    padding-left: 10px;
+    text-align:justify;
+    width: 40%;
+    font-size: 0.88rem;
+    font-weight: 400;
+    margin-left: 100px;
+    color:  rgba(255, 255, 255, 0.5);
+
+}
+.card-style{
+    width: 100%;
+    height: 270px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.card{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 18px;
+    background-color: rgba(139, 138, 138, 0.226);
 
 }
 /* fourth-section styles */
