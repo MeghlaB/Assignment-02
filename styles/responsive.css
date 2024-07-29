@@ -10,7 +10,7 @@
 }
 i{
     color: rgb(243, 232, 232);
-    font-size:2rem;
+    font-size:1.5rem;
 
 }
 .navbar{
@@ -94,8 +94,8 @@ i{
 .paly-button{
     color: white;
     position: absolute;
-    padding-left: 1.8rem;
-    padding-top: 2.2rem;  
+    padding-left: 2rem;
+    padding-top: 2.3rem;  
     display: block; 
 }
 .cricle{
@@ -108,7 +108,7 @@ i{
     border-radius:50%;
     border: 2px solid red;
 }
-/* frist-section */
+/* frist-section-responsive */
 .frist-section{
     max-width: 90%;
 }
@@ -136,7 +136,7 @@ i{
     flex-direction: column;
 }
 main{
-    height:5500px;
+    height:6650px;
     background-color: black;
     padding-top: 1rem;
 }
@@ -154,13 +154,12 @@ main{
     align-items: center;
 
 }
-/* second-section */
+/* second-section-responsive */
 .second-section{
     max-width: 80%;
     margin: 0% auto;
     margin-top: 60rem;
     border-radius: 18px;
-   
     background: rgb(34, 34, 34);
 }
 .run-and-mile-styles{
@@ -204,7 +203,7 @@ main{
     margin: 5%;
     border-radius: 18px;
 }
-/* THird-section */
+/* THird-section-responsive*/
 .BM-calculator{
     width: 60%;
     margin-left: 10px;
@@ -260,7 +259,7 @@ table{
 }
 /* challenging-part-responsive */
 .challenging-part{
-    height: 720px;
+    height: 1800px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-top: 5rem;
 }
@@ -311,11 +310,46 @@ table{
     gap: 20px;
 
 }
+.challenging-card-styles{
+    height: 1180px;
+    margin-top: 5rem;
+    background-color: rgb(49, 49, 49);
+}
+.card-contain{
+    flex-direction: column;
+
+}
+.contain-titile{
+    width: 90%;
+    margin: 0% auto;
+    font-size: 2rem;
+    color: white;
+}
+.contain-description{
+    width: 80%;
+    margin: 5% auto;
+    font-size: 0.88rem;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 0.5);
+
+}
+.card-style{
+    width: 100%;
+    height: 270px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1,1fr);
+}
+.card3{
+    display: none;
+
+}
 
 /* Fourth-section-responsive */
 .fourth-text-section{
     width: 100%;
     margin: 0% auto;
+    padding-top: 3rem;
  
 }
 .fourth-titile{
@@ -327,10 +361,9 @@ table{
 }
 .meet-team{
     max-width: 100%;
-    height: 1200px;
+    height: 1500px;
     justify-items: center;
     align-items: center;
-    margin-top: 2rem;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     display: grid;
@@ -343,9 +376,9 @@ table{
     display: none;
 }
 /* footer-section-responsive */
-footer{
+.footer-section{
     padding-top: 2rem;
-    height:720px;  
+    height:700px;  
 }
 .footer-section-styles{
     width: 80%;

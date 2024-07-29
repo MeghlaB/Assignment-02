@@ -187,7 +187,7 @@ body{
 /* main section styles */
 main{
     max-width:1640px;
-    height:3500px;
+    height:3400px;
     margin: 0% auto;
     padding-top: 6rem;
     background-color: black;
@@ -508,7 +508,6 @@ td{
     width: 100%;
     height: 520px;
     margin-top: 5rem;
-
     background-color: rgb(49, 49, 49);
 }
 .card-contain{
@@ -521,10 +520,11 @@ td{
 }
 .contain-titile{
     text-align: justify;
-    width: 40%;
-    font-size: 2.2rem;
+    width: 400px;
+    font-size: 2rem;
     font-weight: 800;
     color: white;
+    line-height: 40px;
 
 }
 .contain-description{
@@ -540,7 +540,6 @@ td{
 .card-style{
     width: 100%;
     height: 270px;
-    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
@@ -550,15 +549,90 @@ td{
     margin: 0 auto;
     box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 18px;
-    background-color: rgba(139, 138, 138, 0.226);
+    background-color: rgba(61, 231, 189, 0.226);
 
 }
+.card3{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 18px;
+    background-color: rgba(61, 241, 166, 0.637);
+
+}
+.card1{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 18px;
+    background-color: rgba(134, 8, 184, 0.637);
+
+}
+.card2{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 18px;
+    background-color: rgba(241, 153, 21, 0.637);
+
+}
+.dumblbe{
+    width: 30%;
+    padding-left: 5px;
+}
+.yoga{
+    width: 35%;
+
+}
+.body-builder{
+    width: 40%;
+    left: 5px;
+
+}
+.running{
+    width: 30%;
+    left: 5px;
+
+}
+.dumbble-titile,
+.yoga-titile,
+.body-builder-title,
+.running-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    margin-left: 10px;
+}
+.dumbble-description,
+.yoga-description,
+.body-builder-description,
+.running-description{
+    font-size: .99rem;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.learn-more{
+    width: 200px;
+    height: 43px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: rgb(8, 1, 44);
+    
+}
 /* fourth-section styles */
-.fourth-section{
+ .fourth-section{
     max-width: 90%;
     height: 750px;
     margin: 0% auto;
-    margin-top: 5rem;
+    margin-top: 8rem;
    
 }
 .fourth-text-section{
@@ -652,16 +726,14 @@ td{
     margin-left: 2rem;
     color: rgba(255, 255, 255, 0.5);
 
-}
+} 
 /* footer-section-styles */
-footer{
+.footer-section{
     max-width:1640px;
     height:350px;
     padding-top: 3rem;
     margin: 0% auto;
-    background-color:rgb(31, 30, 30);
-   
-    
+    background-color:rgb(31, 30, 30);  
 }
 .footer-section-styles{
     width: 80%;
@@ -712,15 +784,12 @@ footer{
     font-family: "Inter", sans-serif;
     color: rgba(255, 255, 255, 0.5);
     line-height: 20px;
-
-
 }
 .third-footer >h3{
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 50px;
     color: white;
-
 }
 .third-footer >p{
     font-size: .88rem;
@@ -741,4 +810,4 @@ hr{
     margin-top: 1rem;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
-}
+} 
