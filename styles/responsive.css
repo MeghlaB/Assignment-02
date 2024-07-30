@@ -157,6 +157,7 @@ main{
 /* second-section-responsive */
 .second-section{
     max-width: 80%;
+    height: 515px;
     margin: 0% auto;
     margin-top: 60rem;
     border-radius: 18px;
@@ -165,42 +166,44 @@ main{
 .run-and-mile-styles{
     width: 100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+.run-and-extra{
+    width: 85%;
+    margin-left: 2px;
+    margin-top: 15px;
 }
 .run-title{
-    font-size: 1.5rem;
+    width: 70%;
+    font-size: 2rem;
     font-weight: 700;
     color: white;
-    text-align: center;
+    margin-left: 0%;
     line-height: 35px;
 }
 .run-description{
     font-size: 0.95rem;
     font-weight: 300;
     padding-top: 1rem;
-    text-align: center;
     color: rgba(255, 255, 255, 0.5);   
 }
 .Join-button{
-    width: 200px;
+    width: 280px;
     height: 43px;
     font-size: 1rem;
     border-radius: 42px;
     border: none;
-    margin-top: 0.5rem;
-    background-color: rgb(230, 83, 60);
+    margin-top: 0.8rem;
     color: white;
 }
-.run-and-extra{
-    width: 50%;
-    margin-right:50px;
-    margin-top: 30px;
+.run-images{
+    width: 80%;
+    height: 200px;
+    margin-top: 25px;
 }
 .run-img{
     width:90%;
-    height: 80%;
-    margin: 5%;
+    margin-left: 0px;
+    margin-bottom: 2rem;
     border-radius: 18px;
 }
 /* THird-section-responsive*/
@@ -311,7 +314,7 @@ table{
 
 }
 .challenging-card-styles{
-    height: 1180px;
+    height: 1250px;
     margin-top: 5rem;
     background-color: rgb(49, 49, 49);
 }
@@ -349,7 +352,7 @@ table{
 .fourth-text-section{
     width: 100%;
     margin: 0% auto;
-    padding-top: 3rem;
+    padding-top: 7rem;
  
 }
 .fourth-titile{
@@ -367,6 +370,7 @@ table{
     border-radius: 18px;
     background: rgb(34, 34, 34);
     display: grid;
+    gap: 5px;
     grid-template-columns: repeat(1,1fr);
 }
 .div1{

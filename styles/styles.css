@@ -19,6 +19,7 @@ body{
     font-family: "Inter", sans-serif;
     max-width:1250px;
     margin: 0% auto;
+    /* background-color: black; */
 }
 /* header-section */
 .navbar{
@@ -249,6 +250,7 @@ h4{
 /* second-section styles */
 .second-section{
     max-width: 88%;
+    height: 400px;
     margin: 0% auto;
     margin-top: 5rem;
     border-radius: 18px;
@@ -258,12 +260,14 @@ h4{
 .run-and-mile-styles{
     width: 80%;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
  
 }
 .run-and-extra{
     width: 50%;
     margin-top: 30px;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 .run-title{
     font-size: 3rem;
@@ -287,7 +291,7 @@ h4{
     font-size: 1rem;
     border-radius: 42px;
     border: none;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     background-color: rgb(230, 83, 60);
     color: white;
@@ -295,14 +299,18 @@ h4{
 }
 .run-images{
     width: 80%;
-    height: 80%;
-    margin-top: 20px;
+    height:350px;
+    margin-top: 25px;
+}
+.run-images >img{
+    width: 100%;
+    height: 100%;
+  
 }
 .run-img{
-    width:100%;
-    height:100%;
     margin-left: 150px;
     border-radius: 18px;
+
 }
 
 /* third-section-styles */
@@ -357,7 +365,8 @@ th{
     font-size: 1rem;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
+    text-align: justify;
+    padding-left: 15px;
 }
  th,td{
     width: 130px;
@@ -368,7 +377,8 @@ th{
 td{
     font-size: .80rem;
     color: rgba(255, 255, 255, 0.5);
-    text-align: center;
+    text-align: justify;
+    padding-left: 15px;
 }
 .div0{
     width: 45%;
@@ -422,6 +432,8 @@ td{
     height: 35px;
     border-radius: 8px;
     border: none;
+    font-size: 1rem;
+    padding-left: 1rem;
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
 }
@@ -431,16 +443,14 @@ td{
     margin-top: 0.4rem;
     color: rgba(255, 255, 255, 0.5);
 }
-.from{
-    font-size: 1rem;
-    margin-left: 2rem;
-}
+
 .fivth-grid{
     width: 195%;
     height: 35px;
     border-radius: 8px;
     border: none;
     font-size: 1rem;
+    padding-left: 1rem;
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5)
 }
@@ -452,6 +462,7 @@ td{
     background-color: red;
     color: white;
     font-size: 1rem;
+    font-weight: 600;
 }
 /* challenging-part-styles */
 .challenging-part{
