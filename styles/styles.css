@@ -11,15 +11,15 @@
 }
 
 .bg{
-    max-width:1640px;
+    max-width:1440px;
     margin: 0% auto;
     background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(29, 29, 29, 0.8), rgb(0, 0, 0));
 }
 body{
     font-family: "Inter", sans-serif;
-    max-width:1250px;
+    /* max-width:1250px; */
     margin: 0% auto;
-    /* background-color: black; */
+    background-color: black;
 }
 /* header-section */
 .navbar{
@@ -148,6 +148,7 @@ body{
     font-size: 2.5rem;
     color: white;
     margin-left: 25px;
+    margin-top: 12.5px;
 }
 .title{
     font-size: 1rem;
@@ -187,7 +188,7 @@ body{
 }
 /* main section styles */
 main{
-    max-width:1640px;
+    max-width:1440px;
     height:3400px;
     margin: 0% auto;
     padding-top: 6rem;
@@ -531,11 +532,12 @@ td{
 }
 .contain-titile{
     text-align: justify;
-    width: 400px;
-    font-size: 2rem;
-    font-weight: 800;
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: normal;
     color: white;
-    line-height: 40px;
+ 
 
 }
 .contain-description{
@@ -740,8 +742,8 @@ td{
 } 
 /* footer-section-styles */
 .footer-section{
-    max-width:1640px;
-    height:350px;
+    max-width:1440px;
+    height:380px;
     padding-top: 3rem;
     margin: 0% auto;
     background-color:rgb(31, 30, 30);  

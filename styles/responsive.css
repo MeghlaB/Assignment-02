@@ -1,12 +1,16 @@
 @media screen and (max-width:576px){
     .nav-menu{
         display: none;
+        width: 80%;
     }
 .humbars{
     display:inline;
     text-align: center;
     margin-left: 80px;
           
+}
+body{
+    width: 100%;
 }
 i{
     color: rgb(243, 232, 232);
@@ -23,6 +27,10 @@ i{
     color:rgb(230, 83, 60);
 }
    /* Banner_iamges-responsive */
+   .bg{
+    max-width:100%;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(29, 29, 29, 0.8), rgb(0, 0, 0));
+}
 .banner-container{
     flex-direction: column;
    }
@@ -113,7 +121,7 @@ i{
     max-width: 90%;
 }
 .change-title{
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 50px;
     margin-left: 2rem;
@@ -325,12 +333,14 @@ table{
 .contain-titile{
     width: 90%;
     margin: 0% auto;
+    font-weight: 800;
     font-size: 2rem;
     color: white;
 }
 .contain-description{
     width: 80%;
     margin: 5% auto;
+    margin-left: 5px;
     font-size: 0.88rem;
     font-weight: 400;
     color:  rgba(255, 255, 255, 0.5);
@@ -382,7 +392,7 @@ table{
 /* footer-section-responsive */
 .footer-section{
     padding-top: 2rem;
-    height:700px;  
+    height:720px;  
 }
 .footer-section-styles{
     width: 80%;
