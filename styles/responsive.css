@@ -18,7 +18,8 @@ i{
 
 }
 .navbar{
-    padding-top: 12px;
+    padding: 12px 5px;
+
 
 }
 .Fitness{
@@ -40,7 +41,7 @@ i{
 .banner-title{
     font-size: 3.5rem;
     line-height: 60px;
-    font-weight: 400;
+    font-weight: 900;
     color: white;
     text-align: left;
 }
@@ -99,7 +100,7 @@ i{
     top: 55%;
     left: 5%;
 }
-.paly-button{
+.play-button{
     color: white;
     position: absolute;
     padding-left: 2rem;
@@ -357,6 +358,10 @@ table{
     display: none;
 
 }
+.learn-more i{
+    color: rgb(22, 22, 22);
+    
+}
 
 /* Fourth-section-responsive */
 .fourth-text-section{
@@ -385,6 +390,26 @@ table{
 }
 .div1{
     display: none;
+}
+.div2{
+    text-align: center;
+    margin: 5px 2px;
+
+}
+.div3{
+    text-align: center;
+    margin: 5px 2px;
+
+}
+.div5{
+    text-align: center;
+    margin: 5px 2px;
+
+}
+.div6{
+    text-align: center;
+    margin: 5px 2px;
+
 }
 .div4{
     display: none;

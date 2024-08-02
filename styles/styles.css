@@ -21,18 +21,18 @@ body{
 /* header-section */
 .bg{
     max-width:1440px;
-   margin: 0% auto;
+    margin:  0 auto;
    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(29, 29, 29, 0.8), rgb(0, 0, 0));
 }
-.navbar{
-    margin: 0rem auto;  
-}
+
 /* Nav_bar styles */
 .navbar{
-    padding: 2rem 2.5rem;
+    width: 80%;
+    margin: 0 auto; 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 2.5rem;
 }
 .nav-menu{
     display: flex;
@@ -41,6 +41,7 @@ body{
     height: 30px;
     align-items: center;
     border-radius: 16px;
+    margin-top: 2rem;
     border: 2px solid rgba(211, 211, 211, 0.103);
 
 }
@@ -273,7 +274,7 @@ h4{
     margin-left: 3rem;
 }
 .run-title{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 900;
     color: white;
     line-height: 50px;
@@ -301,7 +302,7 @@ h4{
     gap: 20px;
 }
 .run-images{
-    width: 80%;
+    width: 50%;
     height:350px;
     margin-top: 25px;
 }
@@ -311,7 +312,7 @@ h4{
   
 }
 .run-img{
-    margin-left: 150px;
+    margin-left: 200px;
     border-radius: 18px;
 
 }
@@ -488,6 +489,7 @@ td{
     width: 100%;
     border-radius: 16px;
     position: relative;
+    opacity: 0.6;
 }
 .container-text{
     width:40%;
@@ -533,7 +535,6 @@ td{
 
 }
 .contain-titile{
-    text-align: justify;
     width: 50%;
     font-size: 2.5rem;
     font-weight: 900;
@@ -564,7 +565,8 @@ td{
     margin: 0 auto;
     box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 18px;
-    background-color: rgba(61, 231, 189, 0.226);
+    background-color: rgb(99, 98, 98);
+    opacity: 0.5;
 
 }
 .card3{
@@ -573,8 +575,8 @@ td{
     margin: 0 auto;
     box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 18px;
-    background-color: rgba(61, 241, 166, 0.637);
-
+    background-color: rgb(99, 98, 98);
+    opacity: 0.5;
 }
 .card1{
     width: 80%;
@@ -582,7 +584,8 @@ td{
     margin: 0 auto;
     box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 18px;
-    background-color: rgba(134, 8, 184, 0.637);
+    background-color: rgb(99, 98, 98);
+    opacity: 0.5;
 
 }
 .card2{
@@ -618,7 +621,7 @@ td{
 .running-title{
     font-size: 1.5rem;
     font-weight: 800;
-    color: white;
+    color:rgb(243, 239, 239);
     margin-left: 10px;
 }
 .dumbble-description,
@@ -629,7 +632,7 @@ td{
     font-weight: 400;
     padding-top: 20px;
     margin-left: 10px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(247, 243, 243, 0.5);
 
 }
 .learn-more{
@@ -641,6 +644,9 @@ td{
     font-size: 1.3rem;
     color: rgb(8, 1, 44);
     
+}
+.learn-more i{
+    margin: 2px 5px;
 }
 /* fourth-section styles */
  .fourth-section{
@@ -697,12 +703,14 @@ td{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0.6;
 }
 .div2{
     background-image:url(../images/trainer2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0.6;
     
 }
 .div3{
@@ -710,6 +718,7 @@ td{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0.6;
 
 }
 .div4{
@@ -717,12 +726,14 @@ td{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0.6;
 }
 .div5{
     background-image:url(../images/trainer5.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0.6;
 
 }
 .div6{
@@ -730,6 +741,7 @@ td{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0.6;
 
 }
 .name{
@@ -820,6 +832,7 @@ hr{
     width: 80%;
     margin: 0 auto;
     border: 1px solid grey;
+    color: rgb(22, 22, 22);
     margin-top: 5rem;
 }
 .last-foot{
