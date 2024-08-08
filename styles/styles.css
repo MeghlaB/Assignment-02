@@ -408,7 +408,19 @@ td{
     grid-template-columns: repeat(2,1fr);
     gap:10px; 
 }
-.frist-grid{
+.calculate-from input{
+    padding-left: 1rem;
+    width: 200px;
+    height: 35px;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+   
+   
+  
+}
+/* .frist-grid{
     width: 200px;
     height: 35px;
     border-radius: 8px;
@@ -429,7 +441,7 @@ td{
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
-}
+} */
 
 .fourth-grid{
     width: 200px;
@@ -449,7 +461,7 @@ td{
 }
 
 .fivth-grid{
-    width: 195%;
+    width: 185%;
     height: 35px;
     border-radius: 8px;
     border: none;

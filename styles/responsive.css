@@ -157,8 +157,8 @@ main{
     padding-top: 0%;
 }
 .cricle-images{
-    margin-top: 2rem;
-    margin-left: 3rem;
+    margin: 1.5rem 3rem;
+    /* margin-left: 3rem; */
     justify-content: center;
     align-items: center;
 
