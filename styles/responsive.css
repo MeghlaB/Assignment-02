@@ -392,28 +392,31 @@ table{
     display: none;
 }
 .div2{
-    text-align: center;
+    text-align: justify;
     margin: 5px 2px;
 
 }
 .div3{
-    text-align: center;
+    text-align: justify;
     margin: 5px 2px;
 
 }
 .div5{
-    text-align: center;
+    text-align:justify;
     margin: 5px 2px;
 
 }
 .div6{
-    text-align: center;
+    text-align: justify;
     margin: 5px 2px;
 
 }
 .div4{
     display: none;
+
 }
+
+
 /* footer-section-responsive */
 .footer-section{
     padding-top: 2rem;
