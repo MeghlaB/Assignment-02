@@ -415,10 +415,11 @@ td{
     font-size: 1rem;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
+   
+}
+
+input::placeholder {
     color: rgba(255, 255, 255, 0.6);
-   
-   
-  
 }
 
 .fourth-grid{
@@ -437,7 +438,10 @@ td{
     margin-top: 0.4rem;
     color: rgba(255, 255, 255, 0.5);
 }
-
+select,
+option{
+    background-color:black;
+}
 .fivth-grid{
     width: 185%;
     height: 35px;
@@ -538,7 +542,7 @@ td{
     text-align:justify;
     width: 40%;
     font-size: 0.88rem;
-    font-weight: 400;
+    font-weight: 200;
     margin-left: 100px;
     color:  rgba(255, 255, 255, 0.5);
 

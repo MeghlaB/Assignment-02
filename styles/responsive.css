@@ -343,7 +343,9 @@ table{
     margin: 5% auto;
     margin-left: 5px;
     font-size: 0.88rem;
-    font-weight: 400;
+    /* font-weight: 400; */
+    letter-spacing: 0%;
+    line-height: normal;
     color:  rgba(255, 255, 255, 0.5);
 
 }
