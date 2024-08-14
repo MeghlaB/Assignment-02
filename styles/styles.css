@@ -678,6 +678,7 @@ option{
     background: rgb(34, 34, 34);
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    padding-left: 35px;
 
 }
 .div1,
