@@ -6,7 +6,9 @@
     line-height: 180%;
 }
 /* shered styles */
-
+.hide{
+    display: none;
+}
 * {
     margin: 0;
     padding: 0;

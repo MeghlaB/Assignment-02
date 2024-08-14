@@ -381,7 +381,7 @@ table{
 }
 .meet-team{
     max-width: 100%;
-    height: 1500px;
+    height: 1300px;
     justify-items: center;
     align-items: center;
     border-radius: 18px;
@@ -390,28 +390,40 @@ table{
     gap: 5px;
     padding-left: 0;
     grid-template-columns: repeat(1,1fr);
+
 }
 .div1{
     display: none;
 }
 .div2{
     text-align: justify;
-    margin: 5px 2px;
+    padding-top: 0px;
+    margin-left: 2px;
+     margin-right: 2px
+
 
 }
 .div3{
     text-align: justify;
-    margin: 5px 2px;
+
+     margin-top: -50px;
+    margin-left: 2px;
+    margin-right: 2px; 
 
 }
 .div5{
     text-align:justify;
-    margin: 5px 2px;
 
+     margin-top: -50px;
+    margin-left: 2px;
+    margin-right: 2px; 
 }
 .div6{
     text-align: justify;
-    margin: 5px 2px;
+    
+     margin-top: -50px;
+    margin-left: 2px;
+    margin-right: 2px; 
 
 }
 .div4{
