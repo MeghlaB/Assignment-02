@@ -405,7 +405,7 @@ td{
     line-height: normal;
 }
 .calculate-from{
-    width: 80%;
+    width: 68%;
     display: grid;
     margin-top: 1rem;
     grid-template-columns: repeat(2,1fr);
@@ -446,7 +446,7 @@ option{
     background-color:black;
 }
 .fivth-grid{
-    width: 185%;
+    width: 204%;
     height: 35px;
     border-radius: 8px;
     border: none;
